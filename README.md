@@ -9,3 +9,6 @@ You need an API account from 46elks.com (you could also modify this script to us
 
 - line 4: elkuser = "user"
 - line 5: elkpass = "pass"
+
+### Thanks:
+Thanks to @mikeghacks and @insiniasec for the inspiration
