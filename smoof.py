@@ -1,6 +1,9 @@
 import requests
 import requests
 
+elkuser = "user"
+elkpass = "pass"
+
 wrong_art = """
                                                                               ffffffffffffffff
                                                                              f::::::::::::::::f
@@ -35,5 +38,5 @@ print "Message:",
 messagetext = raw_input()
 
 url = "https://api.46elks.com/a1/SMS"
-r = requests.post(url, data={'to': recipient,'from': sender,'message': messagetext}, auth=('user', 'pass'))
+r = requests.post(url, data={'to': recipient,'from': sender,'message': messagetext}, auth=(elkuser, elkpass))
 print r.json()
