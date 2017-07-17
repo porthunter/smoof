@@ -1,5 +1,5 @@
 # smoof
-SMS Spoofer for Social Engineering and Troll Level 9000
+SMS Spoofer for Social Engineering/Pentest Engagements, use at your own risk!
 
 ## Usage:
 python smoof.py
